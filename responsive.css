@@ -1,0 +1,100 @@
+/* untuk tablet */
+@media all and (max-width: 1000px) {
+
+    .container {
+      width: 680px;
+    }
+
+    .header-right {
+      margin-right: 20px;
+    }
+
+    .top-wrapper {
+      background-size: cover;
+    }
+
+    .top-wrapper h1 {
+      font-size: 32px;
+    }
+
+      input {
+      width: 320px;
+    }
+
+    .show {
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .produk {
+      height: 300px;
+    }
+    .case img{
+      height: 180px;
+    }
+
+  }
+
+  /* untuk smartphone */
+  @media all and (max-width: 670px) {
+
+    .header-right {
+      display: none;
+    }
+
+    .menu-icon {
+      display: block;
+    }
+
+    .top-wrapper h1 {
+      font-size: 24px;
+      line-height: 36px;
+      display: block;
+    }
+
+    .top-wrapper {
+      background-size: cover;
+    }
+
+    .top-wrapper p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    .container {
+      width: 350px;
+    }
+
+    input {
+      width: 260px;
+    }
+
+    .kenapa {
+      height: 300px;
+    }
+
+    .tanaman img {
+      height: 100px;
+      padding-top: 30px;
+    }
+
+    .tanaman h2{
+      font-size : 20px;
+    }
+
+    .produk {
+      height: 1100px;
+    }
+
+    .show {
+      margin-left: auto;
+      margin-right: auto;
+      padding: 50px auto;
+      flex-wrap: wrap;
+      width: 50%;
+    }
+
+    .case {
+      padding-top: 30px;
+    }
+  }

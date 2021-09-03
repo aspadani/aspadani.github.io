@@ -1,0 +1,240 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+/* tempat */
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 75px;
+  width: 100%;
+  background-color: rgba(78, 91, 49, 0.8);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 120px;
+  margin-top: 20px;
+}
+
+/* agar list tetap di atas */
+.header-left {
+  float: left;
+}
+
+/* list */
+.header-right li {
+  list-style: none;
+  float: right;
+  margin: 0px 8px;
+  font-size: 16px;
+  color:white;
+  display: block;
+  padding: 28px 25px;
+}
+
+/* list saat dilewati kursor berubah warna */
+.header-right li:hover {
+  background-color: rgba(63, 84, 19, 0.9);
+}
+
+/* gambar background */
+.top-wrapper {
+  padding: 180px 0 180px 0;
+  background-image: url(https://i.pinimg.com/originals/b0/06/57/b00657d7ca79e23dafeb78873ff1b6ac.jpg);
+  background-size: cover;
+}
+
+/* judul pada gambar */
+.top-wrapper h1 {
+  color: white;
+  font-size: 52px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+/* pencarian */
+.top-wrapper p {
+  color: white;
+  font-size: 20px;
+  margin-top: 64px;
+  margin-bottom: 12px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+/* kolom pencarian */
+input {
+  border: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #f2f2f2;
+  padding: 12px;
+  border-radius: 3px;
+  width: 500px;
+  height: 20px;
+  outline: none;
+}
+
+/* tulisan di kolom pencarian */
+input::placeholder {
+  color: #656565;
+  letter-spacing: 2px;
+}
+
+/* ikon search */
+.icon {
+  color: white;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.kenapa {
+  padding: 20px 20px;
+  height: 450px;
+  animation: pulse 10s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #758b72;
+  }
+  100% {
+    background-color: #725430;
+  }
+}
+
+.kenapa h1{
+  text-align: center;
+}
+
+.alasannya {
+  display: flex;
+}
+
+.alasan {
+  text-align: center;
+}
+
+.tanaman {
+  margin-top: 20px;
+  width: 25%;
+  flex:auto;
+}
+
+.tanaman img{
+  height: 250px;
+}
+
+.tanaman h2{
+  font-weight: normal;
+}
+
+.produk {
+  text-align: center;
+  align-self: center;
+  background-color: rgba(78, 91, 49, 0.5);
+  height: 400px;
+  padding: 50px 50px;
+}
+
+.show {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lihat {
+  background-color: green;
+  height: 30px;
+  padding-top: 10px;
+}
+
+.klik {
+  color: white;
+  display: contents;
+  text-decoration: none;
+}
+
+.case img{
+  height: 250px;
+}
+
+
+.form-title {
+  border-bottom:1px solid #deb887;
+  font-size:28px;
+  padding-bottom: 15px;
+  padding-top:50px;
+  padding-left:20px;
+}
+.formulir {
+  color:#f5f5dc;
+  width:100%;
+  background-color:#725430;
+  height:600px;
+}
+input, textarea {
+  width:40%;
+  margin-top:10px;
+  margin-bottom:10px;
+  padding:10px;
+  font-size:18px;
+  background-color:#deb887;
+  border:1px solid #241207;
+  margin-left:20px;
+  border-radius: 2px;
+}
+.submit input{
+  background-color:#758b72;
+  color:#1b2413;
+  padding:0px;
+  width:100px;
+  border: 0px;
+  float:bottom;
+}
+.formulir p {
+  font-size: 23px;
+  margin:0px 20px;
+}
+footer {
+  padding:10px 20px 20px 20px;
+  background-color:#4e5b31;
+  height:160px;
+}
+.logo2  {
+  height: 50px;
+  width: 140px;
+  float:right;
+  margin-top:50px;
+}
+.footer-list {
+  width:50%;
+}
+.footer h3, h4, p {
+  margin:5px;
+}
+.footer h4 {
+  margin-bottom:10px;
+}
